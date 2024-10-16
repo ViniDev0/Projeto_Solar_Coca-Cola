@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    padding: 35px;
+    border-right: 1px solid #000000;
+    background-color: #F21D1D;
+}
+.sidebar-header{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sidebar button{
+    width: 150px;
+    height: 40px;
+    padding: 0px;
+    border: 0;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    color: inherit;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    background: transparent;
+    cursor: pointer;
+}
+.
+.botao-fundo{
+    width: 100%;
+}
+
+.sidebar button:hover{
+    border-radius: 50px;
+    background: #690101;
+    color: #ff0000;
+}
+.logo-elemento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.line{
+    width: 160px;
+
+}
+.logo-solar{
+    width: 160px;
+    
+}
