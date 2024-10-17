@@ -1,13 +1,14 @@
-import { ChakraProvider } from '@chakra-ui/react'
-function App() {
+import React from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
+
+const App: React.FC = () => {
   return (
     <ChakraProvider>
-     <div>
-      
-     </div>
+      <div className="app-container">
     
+      </div>
     </ChakraProvider>
   );
-}
+};
 
 export default App;
